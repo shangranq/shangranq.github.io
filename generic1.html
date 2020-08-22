@@ -34,19 +34,46 @@
 						<div class="inner">
 							<h1 class="major">Explainable AI on Alzheimer’s Disease</h1>
 							<span class="image fit"><img src="images/brain_paper.jpg" alt="" /></span>
-							<p>Super excited to share our latest publication in <b>Brain</b>! <a href="https://academic.oup.com/brain/article/143/6/1920/5827821", style="color:yellow;">[paper link]</a>
+							<p>Super excited to share our latest publication in <b>Brain</b>!
+								<a href="https://academic.oup.com/brain/article/143/6/1920/5827821", style="color:yellow;">[paper link]</a>
 								<a href="https://github.com/vkola-lab/brain2020", style="color:yellow;">[Github link]</a>
 								An explainable deep learning framework was developed
 								to visualize 3D high resolution Alzheimer's disease <b>saliency map</b> in brain MRI. The color from the figure below represents patient's
-								disease probability ranging from blue(healthy) to red(severe). Model's diagnostic performance was compared
+								<b>disease probability</b> ranging from <b>blue(healthy)</b> to <b>red(severe)</b>. Model's diagnostic performance was compared
 								to 11 neurologists. Accuracy of the predicted high risk regions was also verified by comparing with the
 								brain autopsy data (medical ground truth). </p>
 							<img class="center_image" src="images/brain_figure.jpg" alt="" />
 						</div>
 						<div class="inner">
-							<h1 class="major">Projects</h1>
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<p>ada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<h1 class="major">MRI Image Enhancement</h1>
+							<img class="center_image" src="images/gan_figure.jpg" alt="" />
+							<p> We developed a <b>dual-purpose Generative Adversarial Network</b>
+								<a href="https://www.medrxiv.org/content/10.1101/2020.07.22.20159814v1", style="color:yellow;">[paper link]</a>
+								<a href="https://github.com/vkola-lab/gan2020", style="color:yellow;">[Github link]</a>
+								to <b>enhance MRI image quality and disease classification accuracy</b>.
+								Demonstrated consistent image quality improvement on 4 image quality metrics (SNR, SSIM, NIQE and BRISQUE) and
+								classification performance boost over 3 datasets.</p>
+						</div>
+						<div class="inner">
+							<h1 class="major">Early Detection of Alzheimer's Disease</h1>
+							<img class="center_image" src="images/DADM.jpg" alt="" />
+							<p> We developed a <b>multi-modal deep learning framework</b> to detect early stage of Alzheirmer's disease from health control
+								<a href="https://www.sciencedirect.com/science/article/pii/S2352872918300654", style="color:yellow;">[paper link]</a>.
+								<b>Transfer Learning</b> strategy was utilized to classify the MRI images using modified <b>VGG</b> model.
+								The predictions from MRI-based models were then merged with the predictions from two Multilayer Perceptron models using a set of voting scheme.
+							.</p>
+						</div>
+						<div class="inner">
+							<h1 class="major">Knee Pain Visualization</h1>
+							<img class="center_image" src="images/Knee.jpg" alt="" />
+							<p> We developed a <b>convolutional Siamese network</b> to access knee pain from knee MRI
+								<a href="https://link.springer.com/article/10.1007/s00330-020-06658-3", style="color:yellow;">[paper link]</a>.
+								<a href="https://github.com/vkola-lab/er2020", style="color:yellow;">[Github link]</a>
+								Siamese network took pair-wised left and right knee MRI slices to classify whether left or right knee is associated with
+								knee pain among subjects with unilateral frequent knee pain. <b>Class Activation Mapping (CAM)</b> from the Siamese network
+								was used to highlight knee pain regions. The MRI scans and the CAMs of each subject were reviewed by an expert radiologist
+								to identify the presence of abnormalities within the model-predicted regions of high association.
+							</p>
 						</div>
 					</section>
 
